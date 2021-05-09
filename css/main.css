@@ -1,0 +1,228 @@
+/* Basic */
+		
+	body {
+		-ms-overflow-style: scrollbar;
+		font: 15px Arial, sans-serif;
+		}
+
+	body {
+		
+		background: #f4f4f4;
+		height: 100%;
+		background-color: #cccccc;
+		background-image: linear-gradient(pink, purple, blue);
+		
+		
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		
+	}
+
+/* Header */
+
+
+	#header {
+		
+		border:solid 3px rgba(160, 160, 160, 0.3);
+		line-height: 3.5em;
+		float: top-left;
+		background-color: rgba(255, 255, 255, 0.5);
+		
+		}
+		
+		.bgimg{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		}
+		.bgimg2{
+		display:block;
+		vertical-align:bottom;
+		width: 100%;
+		
+		}
+		
+		#header a {
+			color: inherit;
+			
+		}
+
+
+		#header h1 {
+			font-family: 'Orbitron', sans-serif;
+			padding: 0 0 0 1.5em;
+		}
+	.Figure_1 {
+    width: 100%;
+    height: 100%;
+    background: url(../Images/f1.gif) no-repeat;
+    display:inline-block;
+    image-rendering: pixelated;
+    
+    
+    position: absolute;
+    left: 1000px;
+    top: 800px;
+}
+
+ /* Style the navigation menu */
+	.topnav {
+		overflow: hidden;
+		
+		}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+	.topnav #myLinks {
+		display: none;
+		}
+
+/* Style navigation menu links */
+	.topnav a {
+		color: white;
+		padding: .5em;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+		}
+
+/* Style the hamburger menu */
+	.topnav img.icon {
+		padding: .8em;	 
+		right:0;
+		top:0;
+		float: right;
+		display: block;
+		}
+
+/* Add a grey background color on mouse-over */
+	.topnav img:hover {
+		filter: opacity(0.5) drop-shadow(0 0 0 blue);
+		overflow: hidden;
+		}
+	
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+		}
+
+/* Style for the active link (or home/logo) */
+	.active {
+		transparent:
+		background-image: ;
+		} 
+
+/* Block */
+
+	.block {
+		float: center;
+		overflow: auto;
+		display: block;
+		padding: 3em 3em 1em 3em ;
+		background-color: rgba(255, 255, 255, 0.5);
+		border: solid 3px rgba(160, 160, 160, 0.5);
+		overflow: auto;
+		margin: 0 0 3em 0;
+		
+		align-items: center;
+		
+		}
+	
+	.form_subject {
+		float: top;
+		overflow: auto;
+		display: block;
+		margin: 0 0 1em 0;
+		align-items: left;
+		width: 50%;
+		
+		}
+	
+	.form_message {
+		float: bottom;
+		overflow: auto;
+		display: block;
+		margin: 0 0 3em 0;
+		align-items: left;
+		width: 50%;
+				
+		}
+	
+	.fa {
+		padding: 0em 1em 0em 0em ;
+		text-decoration: none;
+		}	
+	/* Add a hover effect if you want */
+	.fa:hover {
+		filter: opacity(0.5) drop-shadow(0 0 0 blue);
+	}
+}
+/* Footer */
+
+	footer{
+		overflow: auto;
+		display: block;
+		background-color: rgba(255, 255, 255, 0.5);
+		border: solid 3px rgba(160, 160, 160, 0.3);
+		float: bottom;
+		align-items: center;
+		}
+	.container-audio {
+    width: 66%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #444;
+    margin: 20px auto;
+    overflow: hidden;
+	}
+	audio {
+  width:100%;
+	}
+/*
+
+Account Activating.....
+Please take a note of the details below these are needed to access your account
+Your order summary
+DescriptionAmount
+
+            Free Hosting $0.00
+            Item price: $0.00
+
+    Item total $0.00
+
+    Total $0.00 
+
+Your Account Details
+Your account is now active.
+Main Hosting Details
+Control panel username
+	b10_27964727
+Control panel password 	**********
+Control panel URL
+	cpanel.byethost10.com
+MySQL username
+	b10_27964727
+MySQL password
+	**********
+MySQL hostname
+	sql311.byethost10.com
+FTP username
+	b10_27964727
+FTP password
+	**********
+FTP host name 	ftp.byethost10.com
+
+	
+Your Website URL's
+Home page
+	http://reapersurvivel.byethost10.com
+
+Thank you for choosing us to host your websites!
+
+[byethost10.com] hosting services 2021
+
+
+*/
+	
