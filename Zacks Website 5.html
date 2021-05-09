@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Zaccary's Website</title>
+		<meta content="width=device-width, initial-scale=1, user-scalable=no" http-equiv="Content-Security-Policy" 
+		content="default-src 'self'; img-src https://*; child-src 'none';" />
+		<link rel="stylesheet" href="css/main.css" />
+		
+		<script>
+		/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+			function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} 
+			else {
+				x.style.display = "block";
+				}
+			} 
+		
+		var submitButton = document.getElementById("submit_form");
+		var form = document.getElementById("email_form");
+		form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+			
+		</script>
+	
+	
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			
+					<!-- Header -->
+					<header id="header">
+						
+						<!-- Make this stuff look gooder laterz-->
+						<div class="topnav">
+							
+						<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+							<img src="Images/Hamburger.png" width="50" height="50" href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i>
+						
+						<!-- Navigation links (hidden by default) -->
+							<div id="myLinks">
+								<a href="index.html">Main Page</a>
+								<a href="Zacks Website 2.html">Contact Me</a>
+								<a href="Zacks Website 3.html">Favorite Stuff</a>
+								<a href="Zacks Website 4.html">Wanna Hire Me?</a>
+								<a href="Zacks Website 5.html">Notes</a>
+							</div>
+						</div>
+												
+					</header>
+
+						<img src="Images/Top.png" width="100%" class="bgimg"></img>	
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Block of Stuffs -->
+							<article class="block">
+								<h1>Notes</h1>
+								<p>erthhte<br></p> <p>ffbffbsdf<br></p> <p>I'm feeling good<br></p> <p>cool<br></p> <p>beans<br></p> <p>More Beans in a can dude<br></p> <p>rgergbefgbed<br></p> <p>2021-04-29 17:29:50.889805: wgrregrgwe<br></p> <p>2021-05-06 17:20:12.667516: Presentation day! :)<br></p> <p>2021-05-06 18:10:40.246342: Yay!<br></p> <p></p>
+								
+    						</article>
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer" class="block">
+						
+						<img class="fa" src="Images/Facebook.png" width="50" height="50" ></img>
+						<img class="fa" src="Images/Discord.png" width="50" height="50"></img>
+						<img class="fa" src="Images/Reddit.png" width="50" height="50"></img>
+						<img class="fa" src="Images/YouTube.png" width="50" height="50"></img>
+						<img class="fa" src="Images/Spotify.png" width="50" height="50"></img>
+					</footer>
+	</body>
+</html>

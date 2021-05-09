@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Zaccary's Website</title>
+		<meta content="width=device-width, initial-scale=1, user-scalable=no" http-equiv="Content-Security-Policy" 
+		content="default-src 'self'; img-src https://*; child-src 'none';" />
+		<link rel="stylesheet" href="css/main.css" />
+		
+		<script>
+		/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+			function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} 
+			else {
+				x.style.display = "block";
+				}
+			} 
+		
+		var submitButton = document.getElementById("submit_form");
+		var form = document.getElementById("email_form");
+		form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+			
+		</script>
+	
+	
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			
+					<!-- Header -->
+					<header id="header">
+						
+						<!-- Make this stuff look gooder laterz-->
+						<div class="topnav">
+							<div class="topnav">
+							
+						<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+							<img src="Images/Hamburger.png" width="50" height="50" href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i>
+						
+						<!-- Navigation links (hidden by default) -->
+							<div id="myLinks">
+								<a href="index.html">Main Page</a>
+								<a href="Zacks Website 2.html">Contact Me</a>
+								<a href="Zacks Website 3.html">Favorite Stuff</a>
+								<a href="Zacks Website 4.html">Wanna Hire Me?</a>
+								<a href="Zacks Website 5.html">Notes</a>
+							</div>
+						</div>
+												
+					</header>
+
+						<img src="Images/Top.png" width="100%" class="bgimg"></img>	
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Block of Stuffs -->
+							<article class="block">
+								<header>
+									<div>
+										<h2>Stuff I hope I never forget!</h2>
+										<p>I've been on the internet a loooong time. <br>
+										So long, zaccarygauthier@gmail.com is my email. <br>
+										So long, I remeber when stumble upon was fun to use. <br>
+										So long, my familiy was pirating movies onto VHS tapes... <br>
+										(It's been 5+ years, statute of limitations.) <br> 
+										Anyway, because of this, 
+										there is a lot of stuff I'd like to share with everyone, incase we forget.</p>
+									</div>
+								</header>
+								<!-- Image or something-->
+								<h2>YouTube Favorites</h2>
+								<h3>P.S - Probably NSFW</h3>
+								<iframe width="100%" height="450" src="https://www.youtube.com/embed/playlist?list=FLG8UJHgyxoADh1XhJ0hgUPQ" 
+								title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen">
+								</iframe> 
+								
+								<div>
+									<h1>Having a bad day?</h1>
+									<p>Try a hardy dose of endless dose of a bona-fied naturally harvested prefiltered dose of Imgur. <br>
+									These memes are the cream of the crop, from the bottom of the barrel.<br>
+									Hopefully this might make you feel some seblence of human emotion.<br> 
+									Imgur is where Reddit dumps there images, so, on a phone, <br>
+									it's honestly easier to browse it for memes then reddit. <br>
+									Anyway, click the link to go to my favorites page on Imgur: <br>
+									<a href="https://imgur.com/user/TheSurvivelist/favorites">https://imgur.com/user/TheSurvivelist/favorites</a>
+								</p>								
+								<h1><a href="http://two66.com/mirrors/?dir=GTA-Radio-Stations">GTA Radio Stations!</a></h1>
+								</div>
+								<div>	
+									<iframe width="30%" height="30%" scrolling="no" frameborder="no" 
+									allow="autoplay" 
+									src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/340672855&color=%232b745d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+									<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+									<a href="https://soundcloud.com/fairshun" title="Fairshun" target="_blank" style="color: #cccccc; text-decoration: none;">Fairshun</a>
+									· <a href="https://soundcloud.com/fairshun/casiopea-mint-jams-1982-full-album" title="Casiopea - Mint Jams (1982) FULL ALBUM" target="_blank" style="color: #cccccc; text-decoration: none;">
+									Casiopea - Mint Jams (1982) FULL ALBUM</a></div>
+								</div>
+    							</article>
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer" class="block">
+						
+						<img href="https://www.facebook.com/Zack.GauthierX" class="fa" src="Images/Facebook.png" width="50" height="50" ></img>
+						<img href="https://discord.gg/uCXgtPfx" class="fa" src="Images/Discord.png" width="50" height="50"></img>
+						<img href="https://old.reddit.com/user/Reaper_Survivel/" class="fa" src="Images/Reddit.png" width="50" height="50"></img>
+						<img href="https://www.youtube.com/embed/playlist?list=FLG8UJHgyxoADh1XhJ0hgUPQ" class="fa" src="Images/YouTube.png" width="50" height="50"></img>
+						<img href="https://open.spotify.com/playlist/7o5sbctfCmAL22CfAUUGIX" class="fa" src="Images/Spotify.png" width="50" height="50"></img>
+					</footer>
+	</body>
+</html>
